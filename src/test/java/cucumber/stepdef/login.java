@@ -18,6 +18,7 @@ public class login {
     public void halamanLogin() {
         driver = new ChromeDriver();
         driver.get(baseurl);
+//        String title = driver.findElement(By.className("title")).getText();
 //        String title = driver.getTitle();
 //        System.out.println(title);
     }
